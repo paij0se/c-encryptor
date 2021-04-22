@@ -6,7 +6,6 @@
 int main() {
   system("clear");
   printf("welcome!\n");
-  for (;;) {
     {
       int i;
       int x = 1;
@@ -25,6 +24,5 @@ int main() {
       ran(lower, upper, count);
       return 0;
 
-    }
   }
 }
