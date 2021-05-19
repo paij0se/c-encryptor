@@ -7,12 +7,10 @@ void blue(){
 }
 
 void ran(int lower, int upper, int count) {
-    for (int i = 0; i < 1; i++) {
       int i;
       for (i = 0; i < count; i++) {
         int num = (rand() % (upper - lower + 1)) + lower;
         red(); // color
         printf("key: %d \n", num); // generate random numbers and printed
       }
-    }
   }
